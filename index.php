@@ -25,6 +25,7 @@
          </thead>
          <tbody>
             <?php
+            // SomeChart (Test WebStorm)
                $conn = pg_connect("host=192.168.1.54 dbname=test user=postgres password=123")
                    or die('Не удалось соединиться: ' . pg_last_error());
                
